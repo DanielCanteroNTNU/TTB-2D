@@ -13,7 +13,7 @@
 % -- Mechanical properties --
 
 % File loading path
-Track.Load.path = 'TrackProperties\';
+Track.Load.path = '';
 
 % Loading predefined list of track properties
 
