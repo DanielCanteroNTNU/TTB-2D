@@ -16,7 +16,7 @@ Train.vel = 120/3.6;          % Train velocity [m/s]
 % -- Mechanical properties --
 
 % File loading path
-Train.Load.path = 'VehicleProperties\';
+Train.Load.path = '';
 
 % Defnintion of successive vehicles
 veh_num = 1; run([Train.Load.path,'Manchester_BenchMark']);
