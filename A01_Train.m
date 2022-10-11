@@ -53,7 +53,7 @@ veh_num = 1; run([Train.Load.path,'Manchester_BenchMark']);
 % veh_num = 10; run([Train.Load.path,'Eurostar_EC9']);
 % veh_num = 11; run([Train.Load.path,'Eurostar_Locomotive']);
 
-% % Chinese Start (Exmaple: Locomotive + 3 wagons)
+% % Chinese Star (Exmaple: Locomotive + 3 wagons)
 % veh_num = 1; run([Train.Load.path,'ChineseStarPowerCar']);
 % veh_num = 2; run([Train.Load.path,'DoubleDeckPassengerCoach']);
 % veh_num = 3; run([Train.Load.path,'DoubleDeckPassengerCoach']);
