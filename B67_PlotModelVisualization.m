@@ -31,6 +31,7 @@ if Calc.Plot.Model.P00_ModelVisualization == 1
     y_value.rail = 2;
     y_value.sleepers = 1;
     y_value.ballast = 0;
+    y_value.ballast_on_beam_txt = y_value.ballast + 0.2;
     y_value.beam = -0.2*Track.BallastOnBeam.included;
     y_value.wheels = y_value.rail+0.1;
     y_value.train_bottom = y_value.wheels+0.1;
@@ -87,7 +88,7 @@ if Calc.Plot.Model.P00_ModelVisualization == 1
         text(Model.Mesh.XLoc.ballast_aft(1)+diff(Model.Mesh.XLoc.ballast_aft([1,end]))*0.5,y_value.ballast,'Ballast',...
             'HorizontalAlignment','center','EdgeColor',color.ballast,'BackgroundColor',[1,1,1],'FontSize',16,'LineWidth',2);
         if Track.BallastOnBeam.included == 1
-            text(Model.Mesh.XLoc.beam_vert(1)+diff(Model.Mesh.XLoc.beam_vert([1,end]))*0.75,y_value.ballast,'Ballast on beam',...
+            text(Model.Mesh.XLoc.beam_vert(1)+diff(Model.Mesh.XLoc.beam_vert([1,end]))*0.75,y_value.ballast_on_beam_txt,'Ballast on beam',...
                 'HorizontalAlignment','center','EdgeColor',color.ballast,'BackgroundColor',[1,1,1],'FontSize',16,'LineWidth',2);
         end % if Track.BallastOnBeam.included == 1
         text(Model.Mesh.XLoc.beam_vert(1)+diff(Model.Mesh.XLoc.beam_vert([1,end]))*0.5,y_value.beam,'Beam',...
