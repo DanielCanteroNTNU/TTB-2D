@@ -188,6 +188,9 @@ if ~isfield(Calc.Plot.Veh,'P05_ContactForce_x')
 end
 
 % ---- Model ----
+if ~isfield(Calc.Plot.Model,'P00_ModelVisualization')
+    Calc.Plot.Model.P00_ModelVisualization = 0;
+end 
 if ~isfield(Calc.Plot.Model,'P01_ModelDef')
     Calc.Plot.Model.P01_ModelDef = -1;
 end 
