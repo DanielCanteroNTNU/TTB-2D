@@ -1,6 +1,6 @@
 function [] = B67_PlotModelVisualization(Calc,Veh,Track,Model)
 
-% Generates a skematic representation of the model defined by the inputs.
+% Generates a schematic representation of the model defined by the inputs.
 % The figure is closed after the user presses ENTER, then TTB-2D proceeds
 % with the simulation.
 
