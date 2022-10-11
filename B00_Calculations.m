@@ -78,6 +78,9 @@ fprintf('\b'); disp(' DONE');
 % Assigning profile to each wheel
 [Calc] = B25_WheelProfiles(Calc,Train.Veh);
 
+% -- Model visualization --
+B67_PlotModelVisualization(Calc,Train.Veh,Track,Model);
+
 % ---- Coupled Equations Solver (COUP) ----
 % Element number of vertical forces in time
 [Calc] = B50_ElementNumOfForce(Track.Rail,Calc);
