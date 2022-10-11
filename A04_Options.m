@@ -132,6 +132,7 @@ Calc.Plot.Veh.P04_ContactForce_t = 1;   % Vehicle vertical contact force in time
 %Calc.Plot.Veh.P05_ContactForce_x = 1;   % Vehicle vertical contact force in space (1 = Values; 2 = With 0 limit)
 
 % ---- Model ----
+Calc.Plot.Model.P00_ModelVisualization = 1;% Sketch of model before performing simulation
 %Calc.Plot.Model.P01_ModelDef = 50;       % Model vertical deformation at X% of the total simulated time
 %Calc.Plot.Model.P02_ModelRot = 10;       % Model rotation values at X% of the total simulated time
 
