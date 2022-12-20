@@ -238,7 +238,7 @@ for t = 1:Calc.Solver.num_t-1
     % -- Newmark-Beta --
     % Effective Stiffness Matrix
     effKg = Coup.Kg + NB_cte(1)*Coup.Mg + NB_cte(2)*Coup.Cg;
-    % Newmark-beta scheme (As seen in B014)
+    % Newmark-beta scheme
     A = Coup.U(:,t)*NB_cte(1) + Coup.V(:,t)*NB_cte(3) + Coup.A(:,t)*NB_cte(4);
     B = (NB_cte(2)*Coup.U(:,t) - NB_cte(5)*Coup.V(:,t) - NB_cte(6)*Coup.A(:,t));
     Coup.U(:,t+1) = effKg\(Coup.F + Coup.Mg*A + Coup.Cg*B);
@@ -296,7 +296,7 @@ elseif Calc.Options.VBI == 0
         Coup.F(Coup.BC.DOF_fixed) = 0;
 
         % ---- Direct integraion ----
-        % Newmark-beta scheme (As seen in B014)
+        % Newmark-beta scheme
         A = Coup.U(:,t)/(Calc.Solver.NewMark_beta*Calc.Solver.dt^2) + ...
                 Coup.V(:,t)/(Calc.Solver.NewMark_beta*Calc.Solver.dt) + ...
                 Coup.A(:,t)*(1/(2*Calc.Solver.NewMark_beta)-1);
