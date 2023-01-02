@@ -6,7 +6,7 @@ The software TTB-2D simulates the dynamic response of a Train-Track-Bridge syste
 See the document "TTB-2D - User guide.pdf" for more information on how to use it.
 
 This software has been published together with the journal article in SoftwareX journal (Elsevier), available as open access at:
-https://doi.org/10.1016/j.softx.2022.101253
+https://www.sciencedirect.com/science/article/pii/S2352711022001716
 
 If you have used this software in your work, plese cite the published journal publication.
 
