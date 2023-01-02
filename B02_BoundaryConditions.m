@@ -7,6 +7,12 @@ function [Beam] = B02_BoundaryConditions(Beam)
 % *** Licensed under the GNU General Public License v3.0                ***
 % *** Author: Daniel Cantero (daniel.cantero@ntnu.no)                   ***
 % *** For help, modifications, and collaboration contact the author.    ***
+% ***                                                                   ***
+% *** If you found this tool useful, please cite:                       ***
+% *** D. Cantero. TTB-2D: Train-Track-Bridge interaction simulation tool***
+% ***   for Matlab, SoftwareX, Volume 20, 2022.                         ***
+% ***   DOI: https://doi.org/10.1016/j.softx.2022.101253                ***
+% ***                                                                   ***
 % *************************************************************************
 
 % -------------------------------------------------------------------------
