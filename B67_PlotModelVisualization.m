@@ -49,7 +49,7 @@ if Calc.Plot.Model.P00_ModelVisualization == 1
 
     % Generating figure
     fig = figure; 
-        set(gcf,'Name','Model viualization','NumberTitle','off');
+        set(gcf,'Name','Model visualization','NumberTitle','off');
         hold on; box on;
         % Rail
         plot(Model.Mesh.XLoc.rail_vert([1,end]),y_value.rail*[1,1],...
