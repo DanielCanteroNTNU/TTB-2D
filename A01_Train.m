@@ -25,7 +25,7 @@ Train.vel = 120/3.6;          % Train velocity [m/s]
 Train.Load.path = '';
 
 % Defnintion of successive vehicles
-veh_num = 1; run([Train.Load.path,'Manchester_BenchMark']);
+veh_num = 1; run([Train.Load.path,'TrainProp_Manchester_BenchMark']);
 
 % Optional: To add more successive vehicles to the train model, define
 %   each additional vehicle/wagon as follows. Simply define the correct
